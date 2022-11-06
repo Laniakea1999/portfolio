@@ -2,12 +2,16 @@
   padding:3%;
 }
 
+.row{
+  margin:0;
+}
+
 #home{
   padding: 2%;
   padding-top:7%;
   padding-bottom:7%;
   background: #3C4048;
-  margin-top:20px;
+  margin-top:30px;
 }
 
 #csp{
@@ -25,7 +29,7 @@
 }
 
 .socials_logo_image{
-  width:70px;
+  width:50px;
 }
 
 .socials_links{
