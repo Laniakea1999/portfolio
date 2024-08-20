@@ -167,6 +167,7 @@ pre { font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New R
 
 #col-rectangles{
     padding: 0;
+    overflow: hidden;
 }
 
 #profil {
@@ -297,20 +298,20 @@ pre { font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New R
 
 @media (max-width: 576px) {
   #profil {
-    width: 220px;
-    height: 220px;
+    width: 170px;
+    height: 170px;
   }
 
   .rectangle {
-    width: 190px;
-    height: 30px;
-    font-size: 10px;
+    width: 180px;
+    height: 20px;
+    font-size: 9px;
   }
 
-  .rectangle-first {
-    width: 190px;
-    height: 30px;
-    font-size: 10px;
+  #rectangle-first {
+    width: 150px;
+    height: 20px;
+    font-size: 9px;
   }
 }
 
