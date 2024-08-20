@@ -41,98 +41,44 @@
   <!-- Home -->
   <div data-spy="scroll" data-target="navbarZ" data-offset="0" style="font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;">
     <div id="home" class="container-fluid">
-      <div class="row">
-        <div class="col">
-
-          <!-- Socials -->
-          <!-- <div id="socials" class="container-fluid" style="font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; "> -->
-
-            <div class="row" style="height:25%">
-              <!-- e-Mail -->
-              <a href="" target="_blank" style="width:100%; height:100%;">
-                <button type="button" class="btn btn-outline-dark socials_button" style="width:100%; height:100%;">
-                  <div class="container-fluid socials_logo">
-                    <div class="row">
-                      <div class="col-4">
-                        <img src="socials_logos/e-mail.png" class="socials_logo_image" alt="Responsive image">
-                      </div>
-                      <div class="col-7 socials_links">
-                        contact@zedm.info / zied.mustapha@epfl.ch
-                      </div>
-                    </div>
-                  </div>
-                </button>
-              </a>
-            </div>
-
-            <!-- linkedin -->
-            <div class="row" style="height:25%">
-            <a href="https://www.linkedin.com/in/zied-mustapha-420b5a1b1/" target="_blank" style="width:100%; height:100%;">
-              <button type="button" class="btn btn-outline-dark socials_button" style="width:100%; height:100%;">
-                <div class="container-fluid socials_logo">
-                  <div class="row">
-                    <div class="col-4">
-                      <img src="socials_logos/linkedin.png" class="socials_logo_image" alt="Responsive image">
-                    </div>
-                    <div class="col-7 socials_links">
-                      Zied Mustapha
-                    </div>
-                  </div>
-                </div>
-              </button>
-            </a>
-          </div>
-
-            <!-- twitter -->
-            <div class="row" style="height:25%">
-            <a href="https://twitter.com/MustaphaZied" target="_blank" style="width:100%; height:100%;">
-              <button type="button" class="btn btn-outline-dark socials_button" style="width:100%; height:100%;">
-                <div class="container-fluid socials_logo">
-                  <div class="row">
-                    <div class="col-4">
-                      <img src="socials_logos/twitter.png" class="socials_logo_image" alt="Responsive image">
-                    </div>
-                    <div class="col-7 socials_links">
-                      @MustaphaZied
-                    </div>
-                  </div>
-                </div>
-              </button>
-            </a>
-          </div>
-
-            <!-- Instagram -->
-            <div class="row" style="height:25%">
-            <a href="https://www.instagram.com/zied_mustapha/" target="_blank" style="width:100%; height:100%;">
-              <button type="button" class="btn btn-outline-dark socials_button" style="width:100%; height:100%;">
-                <div class="container-fluid socials_logo">
-                  <div class="row">
-                    <div class="col-4">
-                      <img src="socials_logos/insta.png" class="socials_logo_image" alt="Responsive image">
-                    </div>
-                    <div class="col-7 socials_links">
-                      zied_mustapha
-                    </div>
-                  </div>
-                </div>
-              </button>
-            </a>
-          </div>
-
-          </div>
-
+      <div class="row" style="flex-wrap: nowrap;">
         <!-- Image profil -->
-        <div class="col">
-          <div id="profil" class="container-fluid" style="padding:0;">
-            <img src="pictures/profile.png" style="border-style: solid;
-            border-color: black;
-    border-width: 5px;
-    height: 20em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;">
-  </div>
-  </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12" id="col-profile">
+          <div id="profil" class="container" >
+            <img src="pictures/profile.png" class="img-fluid" style="border: 2px solid black;">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12" id="col-rectangles">
+          <div id="rectangles">
+            <div class="rectangle" id="rectangle-first">STATS: </div>
+            <div class="rectangle">Level: <b> [24] </b> - 
+              <div class="gauge">
+                <div class="gauge-fill" style="width: 20%;"></div> <!-- Example: 75% full -->
+              </div>  
+            </div>
+            <div class="rectangle">Work XP: <b> [2] </b> years -
+              <div class="gauge">
+                <div class="gauge-fill" style="width: 30%;"></div> <!-- Example: 75% full -->
+              </div>  
+            </div>
+            <div class="rectangle">ML mana: <b>[4]</b> projects - 
+              <div class="gauge">
+                <div class="gauge-fill" style="width: 90%;"></div> <!-- Example: 75% full -->
+              </div>  
+            </div>
+            <div class="rectangle">AI mana: <b>[2]</b> projects -
+              <div class="gauge">
+                <div class="gauge-fill" style="width: 50%;"></div> <!-- Example: 75% full -->
+              </div>  
+            </div>
+            <div class="rectangle">DEV mana: <b> [4] </b> projects -
+              <div class="gauge">
+                <div class="gauge-fill" style="width: 90%;"></div> <!-- Example: 75% full -->
+              </div>  
+            </div>
+          </div>
+        </div>
 
       </div>
 
@@ -145,8 +91,6 @@
           ">
         <button type="button" class="btn btn-success" style="
               width: 100%;
-              background-color: #04aab3;
-          border-color: #04aab3;
           ">
           <img src="pictures/download.png" style="">
           Download my CV</button>
@@ -160,25 +104,47 @@
   <div id="csp" class="container-fluid">
     <div class="row">
 
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <img src="pictures/nestle.jpeg" class="card-img-top" alt="Artificial Intelligence Educator">
-                <div class="card-body">
-                    <h5 class="card-title">Internship: R&D Data Scientist Trainee at Nestlé Research</h5>
-                    <p class="card-text">6 months internship where I developed a web application designed for automated machine learning processing and data analysis on biological data (2023-2024)</p>
-                    <a target="_blank" href="https://www.nestle.com/about/research-development" class="btn btn-primary">Nestlé Research</a>
-                </div>
-            </div>
+      <div class="col-md-4 mb-4">
+          <div class="card h-100">
+              <img src="pictures/ai_nest.jpeg" class="card-img-top" alt="Artificial Intelligence Educator">
+              <div class="card-body">
+                  <div class="ct-size"><h5 class="card-title">Master Thesis: R&D Data Scientist Trainee at Nestlé Research</h5></div>
+                  <div class="ctxt-size">
+                    <p class="card-text"> 6 months Master Thesis where I
+                      developed an AI system capable of identifying and
+                      analyzing trends in dynamic datasets of scientific
+                      articles about Food Safety. The AI utilizes advanced
+                      natural language processing techniques to extract
+                      and interpret key trends, providing valuable insights
+                      into emerging research areas. (2024)</p>
+                  </div>
+                  <div class="cref-size"><a target="_blank" href="https://www.nestle.com/about/research-development" class="btn btn-primary">Nestlé Research</a></div>
+              </div>
+          </div>
         </div>
 
-        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+              <img src="pictures/nestle.jpeg" class="card-img-top" alt="Artificial Intelligence Educator">
+              <div class="card-body">
+                  <div class="ct-size"><h5 class="card-title">Internship: R&D Data Scientist Trainee at Nestlé Research</h5></div>
+                  <div class="ctxt-size">
+                    <p class="card-text">6 months internship where I developed a web application designed for automated machine learning processing and data analysis on biological data. (2023-2024)</p>
+                  </div>
+                  <div class="cref-size"><a target="_blank" href="https://www.nestle.com/about/research-development" class="btn btn-primary">Nestlé Research</a></div>
+              </div>
+          </div>
+        </div>
+
         <div class="col-md-4 mb-4">
             <div class="card h-100">
                 <img src="pictures/ia.jpg" class="card-img-top" alt="Artificial Intelligence Educator">
                 <div class="card-body">
-                    <h5 class="card-title">Side Job: Artificial Intelligence Educator for High School graduates</h5>
-                    <p class="card-text">Educator on occasional Artifical Intelligence workshops in a Museum "Le musee de la main" (2021 - 2023)</p>
-                    <a target="_blank" href="https://www.museedelamain.ch/" class="btn btn-primary">Musee de la main</a>
+                    <div class="ct-size"><h5 class="card-title">Side Job: Artificial Intelligence Educator for High School graduates</h5></div>
+                    <div class="ctxt-size">
+                      <p class="card-text">Educator on occasional Artifical Intelligence workshops in a Museum "Le musee de la main" (2021 - 2023)</p>
+                    </div>
+                    <div class="cref-size"><a target="_blank" href="https://www.museedelamain.ch/" class="btn btn-primary">Musee de la main</a></div>
                 </div>
             </div>
         </div>
@@ -188,9 +154,9 @@
             <div class="card h-100">
                 <img src="pictures/icc.jpg" class="card-img-top" alt="Teaching Assistant for ICC">
                 <div class="card-body">
-                    <h5 class="card-title">Side Job: Teaching Assistant for ICC</h5>
-                    <p class="card-text">Teaching assistant in EPFL course "Information, Calcul et Communication" under Pr. Jean Cédric Chappelier...</p>
-                    <a target="_blank" href="https://edu.epfl.ch/coursebook/fr/information-calcul-communication-CS-119-D" class="btn btn-primary">Course website</a>
+                    <div class="ct-size"><h5 class="card-title">Side Job: Teaching Assistant for ICC</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Teaching assistant in EPFL course "Information, Calcul et Communication" under Pr. Jean Cédric Chappelier...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://edu.epfl.ch/coursebook/fr/information-calcul-communication-CS-119-D" class="btn btn-primary">Course website</a></div>
                 </div>
             </div>
         </div>
@@ -200,9 +166,9 @@
             <div class="card h-100">
                 <img src="pictures/poo.jpeg" class="card-img-top" alt="Teaching Assistant for Programming Object Oriented">
                 <div class="card-body">
-                    <h5 class="card-title">Side Job: Teaching Assistant for Programming Object Oriented</h5>
-                    <p class="card-text">Teaching assistant in EPFL course "Programming Object Oriented" under Pr. Jean Cédric Chappelier...</p>
-                    <a target="_blank" href="https://edu.epfl.ch/coursebook/fr/programmation-orientee-objet-CS-112-G" class="btn btn-primary">Course website</a>
+                    <div class="ct-size"><h5 class="card-title">Side Job: Teaching Assistant for Programming Object Oriented</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Teaching assistant in EPFL course "Programming Object Oriented" under Pr. Jean Cédric Chappelier...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://edu.epfl.ch/coursebook/fr/programmation-orientee-objet-CS-112-G" class="btn btn-primary">Course website</a></div>
                 </div>
             </div>
         </div>
@@ -212,9 +178,9 @@
             <div class="card h-100">
                 <img src="pictures/mentor.png" class="card-img-top" alt="Academic Mentor">
                 <div class="card-body">
-                    <h5 class="card-title">Side Job: Academic Mentor</h5>
-                    <p class="card-text">Academic Mentor for over 30 students to help them manage their way into a challenging university (EPFL) (2020-2021)</p>
-                    <a target="_blank" href="https://www.epfl.ch/en/" class="btn btn-primary">School website (EPFL)</a>
+                    <div class="ct-size"><h5 class="card-title">Side Job: Academic Mentor</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Academic Mentor for over 30 students to help them manage their way into a challenging university (EPFL) (2020-2021)</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://www.epfl.ch/en/" class="btn btn-primary">School website (EPFL)</a></div>
                 </div>
             </div>
         </div>
@@ -229,9 +195,9 @@
             <div class="card h-100">
                 <img src="pictures/AI.jpg" class="card-img-top" alt="Aspect based emotion analysis">
                 <div class="card-body">
-                    <h5 class="card-title">Aspect based emotion analysis for dialogue understanding</h5>
-                    <p class="card-text">Curate a chitchat oriented dialogue dataset containing aspect-level emotion annotations...</p>
-                    <a target="_blank" href="" class="btn btn-primary">Available soon</a>
+                    <div class="ct-size"><h5 class="card-title">Aspect based emotion analysis for dialogue understanding</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Curate a chitchat oriented dialogue dataset containing aspect-level emotion annotations...</p></div>
+                    <div class="cref-size"><a target="_blank" href="" class="btn btn-primary">Available soon</a></div>
                 </div>
             </div>
         </div>
@@ -240,9 +206,9 @@
             <div class="card h-100">
                 <img src="pictures/topo.png" class="card-img-top" alt="Effects of topology on decentralised classification">
                 <div class="card-body">
-                    <h5 class="card-title">Effects of topology on decentralised classification</h5>
-                    <p class="card-text">Research on the effect of particular network topology on a decentralized classification task...</p>
-                    <a target="_blank" href="https://github.com/Laniakea1999/opti_project" class="btn btn-primary">Source code and results</a>
+                    <div class="ct-size"><h5 class="card-title">Effects of topology on decentralised classification</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Research on the effect of particular network topology on a decentralized classification task...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/Laniakea1999/opti_project" class="btn btn-primary">Source code and results</a></div>
                 </div>
             </div>
         </div>
@@ -251,9 +217,9 @@
             <div class="card h-100">
                 <img src="pictures/tuft.png" class="card-img-top" alt="Flow detachment analysis">
                 <div class="card-body">
-                    <h5 class="card-title">Flow detachment analysis</h5>
-                    <p class="card-text">Machine learning algorithms for flow detachment detection and measurement of tufts on an airplane...</p>
-                    <a target="_blank" href="https://github.com/bitshrine/ml2-tufts" class="btn btn-primary">Source code and report</a>
+                    <div class="ct-size"><h5 class="card-title">Flow detachment analysis</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Machine learning algorithms for flow detachment detection and measurement of tufts on an airplane...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/bitshrine/ml2-tufts" class="btn btn-primary">Source code and report</a></div>
                 </div>
             </div>
         </div>
@@ -262,9 +228,9 @@
             <div class="card h-100">
                 <img src="pictures/dataprot.jpg" class="card-img-top" alt="Database for Cep135/Bld10p protein sequences">
                 <div class="card-body">
-                    <h5 class="card-title">Database for Cep135/Bld10p protein sequences</h5>
-                    <p class="card-text">Algorithms made in Python aiming to search for specific proteins into multiple big databases...</p>
-                    <a target="_blank" href="https://github.com/Laniakea1999/dataprotein" class="btn btn-primary">Report and results</a>
+                    <div class="ct-size"><h5 class="card-title">Database for Cep135/Bld10p protein sequences</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Algorithms made in Python aiming to search for specific proteins into multiple big databases...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/Laniakea1999/dataprotein" class="btn btn-primary">Report and results</a></div>
                 </div>
             </div>
         </div>
@@ -273,9 +239,9 @@
             <div class="card h-100">
                 <img src="pictures/book.jpg" class="card-img-top" alt="PolyBooks">
                 <div class="card-body">
-                    <h5 class="card-title">PolyBooks</h5>
-                    <p class="card-text">Android application made in Kotlin for selling and buying academic books...</p>
-                    <a target="_blank" href="https://github.com/PolyBooks/sdp_polyBooks" class="btn btn-primary">Source code</a>
+                    <div class="ct-size"><h5 class="card-title">PolyBooks</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Android application made in Kotlin for selling and buying academic books...</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/PolyBooks/sdp_polyBooks" class="btn btn-primary">Source code</a></div>
                 </div>
             </div>
         </div>
@@ -284,9 +250,9 @@
             <div class="card h-100">
                 <img src="pictures/gb.jpg" class="card-img-top" alt="GameBoy Simulator">
                 <div class="card-body">
-                    <h5 class="card-title">GameBoy Simulator</h5>
-                    <p class="card-text">GameBoy simulator made in Java. You can play any GameBoy game without a Gameboy!</p>
-                    <a target="_blank" href="https://github.com/Laniakea1999/gameboy_simulator" class="btn btn-primary">Source code</a>
+                    <div class="ct-size"><h5 class="card-title">GameBoy Simulator</h5></div>
+                    <div class="ctxt-size"><p class="card-text">GameBoy simulator made in Java. You can play any GameBoy game without a Gameboy!</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/Laniakea1999/gameboy_simulator" class="btn btn-primary">Source code</a></div>
                 </div>
             </div>
         </div>
@@ -295,9 +261,9 @@
             <div class="card h-100">
                 <img src="pictures/bikegame.jpg" class="card-img-top" alt="Bike Game">
                 <div class="card-body">
-                    <h5 class="card-title">Bike Game</h5>
-                    <p class="card-text">2D Bike Game made in Java (2018).</p>
-                    <a target="_blank" href="https://github.com/Laniakea1999/bikeGame" class="btn btn-primary">Source code</a>
+                    <div class="ct-size"><h5 class="card-title">Bike Game</h5></div>
+                    <div class="ctxt-size"><p class="card-text">2D Bike Game made in Java (2018).</p></div>
+                    <div class="cref-size"><a target="_blank" href="https://github.com/Laniakea1999/bikeGame" class="btn btn-primary">Source code</a></div>
                 </div>
             </div>
         </div>
@@ -306,9 +272,9 @@
             <div class="card h-100">
                 <img src="pictures/morpyam.png" class="card-img-top" alt="Morpyam Board Game">
                 <div class="card-body">
-                    <h5 class="card-title">Morpyam Board Game</h5>
-                    <p class="card-text">Board game made in HTML/CSS, JavaScript, and AJAX at age 14.</p>
-                    <a target="_blank" href="http://morpyam.net/" class="btn btn-primary">Link to the game</a>
+                    <div class="ct-size"><h5 class="card-title">Morpyam Board Game</h5></div>
+                    <div class="ctxt-size"><p class="card-text">Board game made in HTML/CSS, JavaScript, and AJAX at age 14.</p></div>
+                    <div class="cref-size"><a target="_blank" href="http://morpyam.net/" class="btn btn-primary">Link to the game</a></div>
                 </div>
             </div>
         </div>
@@ -330,6 +296,41 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script>
+    window.onload = function() {
+      setTimeout(() => {
+        document.querySelector('#rectangles').classList.add('animate-rectangles');
+      }, 100); // Adjust the delay as needed
+      document.querySelector('#profil').classList.add('animate');
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+  // Get all gauge elements
+  const gauges = document.querySelectorAll('.gauge-fill');
+
+  gauges.forEach(gauge => {
+    const fillPercentage = parseInt(gauge.style.width); // Get the width percentage
+    let colorClass = '';
+
+    // Determine the color class based on the fill percentage
+    if (fillPercentage >= 75) {
+      colorClass = 'darkgreen';
+    } else if (fillPercentage >= 50) {
+      colorClass = 'green';
+    } else if (fillPercentage >= 25) {
+      colorClass = 'green';
+    } else {
+      colorClass = 'limegreen';
+    }
+
+    // Set the appropriate background color
+    gauge.style.backgroundColor = colorClass;
+  });
+});
+
+  </script>
+
 </body>
 
 </html>
